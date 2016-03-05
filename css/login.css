@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.main
+{
+	text-align: center;
+}
+
+
+.label
+{
+	font-size: 15pt;
+}
+
+input[type="text"], input[type="password"]
+{
+	display: block;
+	width: 100%;
+	max-width: 320px;
+	margin: 5px auto;
+	height: 2em;
+}
+
+
+#caption
+{
+	font-size: 24pt;
+	font-weight: bold;
+}

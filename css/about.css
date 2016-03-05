@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.section .title
+{
+	display: block;
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+
+/* for desktop & tablet */
+@media all and (min-width: 768px) {
+	.section 
+	{
+		min-height: 500px;
+	}
+	.section > img
+	{
+		display: inline;
+		width: 50%;
+		height: auto;
+		float: left;
+		margin-right: 10px;
+	}
+	.section > .content
+	{
+		display: inline;
+		max-width: 640px;
+		word-wrap: break-word;
+	}
+};
+
+/* for mobile */
+@media all and (max-width: 767px) {
+	.section > img, .section .content
+	{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+};
+

@@ -2,3 +2,9 @@
     background-color: rgba(0, 0, 0, 0.6);
     position: relative; height: 100%;
 }
+
+
+#poster {
+	display: block;
+	max-width: 100%;
+}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title %}제 10회 앱잼 신청정보 확인{% endblock %}
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="/static/css/login.css" />
+{% endblock %}
+{% block main %}
+<div class="main">
+<br>
+<div id="caption">제 10회 앱잼 신청정보 확인</div>
+<br>
+신청정보를 확인하기 위해서 신청하실 때 입력했던 이메일 주소와 비밀번호를 입력해 주세요<br>
+<br>
+<div class="label">이메일 주소</div>
+<input type="text" maxlength="16" /><br>
+<div class="label">비밀번호</div>
+<input type="password" maxlength="24" /><br>
+<br>
+<input type="button" id="login" class="red-button" value="내 신청정보를 보기" />
+<br>
+</div>
+{% endblock %}
